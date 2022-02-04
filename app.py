@@ -1,5 +1,5 @@
 from flask import Flask, request, render_template, send_from_directory
-from config import POST_PATH, UPLOAD_FOLDER, COMMENTS_PATH
+from config import POST_PATH, COMMENTS_PATH
 import functions
 
 
@@ -52,17 +52,19 @@ def static_dir(path):
 @app.route("/post/<int:post_id>")
 def post_page(post_id):
     post_match = functions.get_posts_by_id(post_id, posts)
-    clickable_content = functions.clickable_content(post_match['content'])
     if len(post_match) > 0:
-        return render_template('post_page.html', post_match=post_match, comments=comments,
-                               clickable_content=clickable_content)
+        return render_template('post_page.html', post_match=post_match, comments=comments)
     return render_template('post_error.html')
 
 
-@app.route("/tag_test", methods=["GET"])
-def test_page():
-    search_tag = request.args.get('search_by_tag')
-    return f'{search_tag}'
+@app.route("/save_comment", methods=["POST"])
+def save_comment():
+    comment_text = request.form.get('comment_text')
+    post_id = request.form.get('post_id')
+    user_name = request.form.get('user_name')
+    functions.save_comment(post_id, user_name, comment_text)
+    return render_template('comment_uploaded.html')
+
 
 
 

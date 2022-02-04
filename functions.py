@@ -30,7 +30,7 @@ def get_posts_by_id(post_id, posts):
 
 
 def clickable_content(content):
-    # вот догадываюсь, что это делается не так, но уже второй час ночи, поэтому костылю, как могу
+    # не заработала эта хрень, а жаль
     words = content.split(' ')
     clickable_content = ""
     clickable_content_list = []
@@ -75,7 +75,20 @@ def get_new_post(content, file, posts):
 def save_post(post):
     with open(POST_PATH) as file:
         posts = json.load(file)
+
     posts.append(post)
 
     with open(POST_PATH, 'w') as file:
         json.dump(posts, file, indent=2)
+
+def save_comment(post_id, user_name, comment_text):
+    with open(COMMENTS_PATH) as file:
+        comments = json.load(file)
+
+    new_comment = {"post_id" : int(post_id), "comment_id" : len(comments) + 1,
+    "user_name" : user_name, "text" : comment_text }
+
+    comments.append(new_comment)
+
+    with open(COMMENTS_PATH, 'w') as file:
+        json.dump(comments, file, indent=2)

@@ -2,145 +2,145 @@
   {
     "post_id": 1,
     "comment_id": 1,
-    "autor_id": 31,
+    "user_name": 31,
     "text": "\u041a\u043e\u043c\u043c\u0435\u043d\u0442\u0430\u0440\u0438\u0439 \u2116 1"
   },
   {
     "post_id": 2,
     "comment_id": 2,
-    "autor_id": 14,
+    "user_name": 14,
     "text": "\u041a\u043e\u043c\u043c\u0435\u043d\u0442\u0430\u0440\u0438\u0439 \u2116 2"
   },
   {
     "post_id": 3,
     "comment_id": 3,
-    "autor_id": 24,
+    "user_name": 24,
     "text": "\u041a\u043e\u043c\u043c\u0435\u043d\u0442\u0430\u0440\u0438\u0439 \u2116 3"
   },
   {
     "post_id": 4,
     "comment_id": 4,
-    "autor_id": 54,
+    "user_name": 54,
     "text": "\u041a\u043e\u043c\u043c\u0435\u043d\u0442\u0430\u0440\u0438\u0439 \u2116 4"
   },
   {
     "post_id": 5,
     "comment_id": 5,
-    "autor_id": 26,
+    "user_name": 26,
     "text": "\u041a\u043e\u043c\u043c\u0435\u043d\u0442\u0430\u0440\u0438\u0439 \u2116 5"
   },
   {
     "post_id": 6,
     "comment_id": 6,
-    "autor_id": 13,
+    "user_name": 13,
     "text": "\u041a\u043e\u043c\u043c\u0435\u043d\u0442\u0430\u0440\u0438\u0439 \u2116 6"
   },
   {
     "post_id": 7,
     "comment_id": 7,
-    "autor_id": 19,
+    "user_name": 19,
     "text": "\u041a\u043e\u043c\u043c\u0435\u043d\u0442\u0430\u0440\u0438\u0439 \u2116 7"
   },
   {
     "post_id": 8,
     "comment_id": 8,
-    "autor_id": 8,
+    "user_name": 8,
     "text": "\u041a\u043e\u043c\u043c\u0435\u043d\u0442\u0430\u0440\u0438\u0439 \u2116 8"
   },
   {
     "post_id": 1,
     "comment_id": 9,
-    "autor_id": 8,
+    "user_name": 8,
     "text": "\u041a\u043e\u043c\u043c\u0435\u043d\u0442\u0430\u0440\u0438\u0439 \u2116 9"
   },
   {
     "post_id": 2,
     "comment_id": 10,
-    "autor_id": 59,
+    "user_name": 59,
     "text": "\u041a\u043e\u043c\u043c\u0435\u043d\u0442\u0430\u0440\u0438\u0439 \u2116 10"
   },
   {
     "post_id": 3,
     "comment_id": 11,
-    "autor_id": 64,
+    "user_name": 64,
     "text": "\u041a\u043e\u043c\u043c\u0435\u043d\u0442\u0430\u0440\u0438\u0439 \u2116 11"
   },
   {
     "post_id": 4,
     "comment_id": 12,
-    "autor_id": 7,
+    "user_name": 7,
     "text": "\u041a\u043e\u043c\u043c\u0435\u043d\u0442\u0430\u0440\u0438\u0439 \u2116 12"
   },
   {
     "post_id": 5,
     "comment_id": 13,
-    "autor_id": 25,
+    "user_name": 25,
     "text": "\u041a\u043e\u043c\u043c\u0435\u043d\u0442\u0430\u0440\u0438\u0439 \u2116 13"
   },
   {
     "post_id": 6,
     "comment_id": 14,
-    "autor_id": 40,
+    "user_name": 40,
     "text": "\u041a\u043e\u043c\u043c\u0435\u043d\u0442\u0430\u0440\u0438\u0439 \u2116 14"
   },
   {
     "post_id": 7,
     "comment_id": 15,
-    "autor_id": 42,
+    "user_name": 42,
     "text": "\u041a\u043e\u043c\u043c\u0435\u043d\u0442\u0430\u0440\u0438\u0439 \u2116 15"
   },
   {
     "post_id": 8,
     "comment_id": 16,
-    "autor_id": 28,
+    "user_name": 28,
     "text": "\u041a\u043e\u043c\u043c\u0435\u043d\u0442\u0430\u0440\u0438\u0439 \u2116 16"
   },
   {
     "post_id": 1,
     "comment_id": 17,
-    "autor_id": 0,
+    "user_name": 0,
     "text": "\u041a\u043e\u043c\u043c\u0435\u043d\u0442\u0430\u0440\u0438\u0439 \u2116 17"
   },
   {
     "post_id": 2,
     "comment_id": 18,
-    "autor_id": 8,
+    "user_name": 8,
     "text": "\u041a\u043e\u043c\u043c\u0435\u043d\u0442\u0430\u0440\u0438\u0439 \u2116 18"
   },
   {
     "post_id": 3,
     "comment_id": 19,
-    "autor_id": 13,
+    "user_name": 13,
     "text": "\u041a\u043e\u043c\u043c\u0435\u043d\u0442\u0430\u0440\u0438\u0439 \u2116 19"
   },
   {
     "post_id": 4,
     "comment_id": 20,
-    "autor_id": 43,
+    "user_name": 43,
     "text": "\u041a\u043e\u043c\u043c\u0435\u043d\u0442\u0430\u0440\u0438\u0439 \u2116 20"
   },
   {
     "post_id": 5,
     "comment_id": 21,
-    "autor_id": 55,
+    "user_name": 55,
     "text": "\u041a\u043e\u043c\u043c\u0435\u043d\u0442\u0430\u0440\u0438\u0439 \u2116 21"
   },
   {
     "post_id": 6,
     "comment_id": 22,
-    "autor_id": 45,
+    "user_name": 45,
     "text": "\u041a\u043e\u043c\u043c\u0435\u043d\u0442\u0430\u0440\u0438\u0439 \u2116 22"
   },
   {
     "post_id": 7,
     "comment_id": 23,
-    "autor_id": 60,
+    "user_name": 60,
     "text": "\u041a\u043e\u043c\u043c\u0435\u043d\u0442\u0430\u0440\u0438\u0439 \u2116 23"
   },
   {
     "post_id": 8,
     "comment_id": 24,
-    "autor_id": 21,
+    "user_name": 21,
     "text": "\u041a\u043e\u043c\u043c\u0435\u043d\u0442\u0430\u0440\u0438\u0439 \u2116 24"
   }
 ]

@@ -28,15 +28,18 @@
             {% for tag in post.tags %}
                 <a href="/tag?search_by_tag={{tag}}">#{{tag}}</a>
             {% endfor %}
-        <form action="">
+        <form action="/save_comment" method="post">
             <h4>Оставить комментарий:</h4>
-            <p><textarea rows="5"  name="comment_text"></textarea></p>
+            <input type="text" style="display: none;" name="post_id" value={{post.post_id}}>
+            <input type="text" name="user_name" placeholder="Введите имя...">
+            <p><textarea rows="5" name="comment_text"></textarea>
+            <input type="submit" name="post_id" value="Отправить" placeholder="123"></p>
         </form>
         <h3>Комментарии:</h3>
         {% for comment in comments %}
                 {% if comment.post_id == post.post_id %}
                     <p>{{comment_counter}}</p>
-                    <p><b>Автор: {{comment.autor_id}}</b></p>
+                    <p><b>Автор: {{comment.user_name}}</b></p>
                     <p>{{comment.text}}</p>
                 {% endif %}
         {% endfor %}
