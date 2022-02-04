@@ -2,20 +2,30 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <title>Все посты по тегу</title>
+    <title>Instagram for poor</title>
+    <link rel="shortcut icon" href="uploads/images/logo.png" type="image/x-icon">
     <link rel="stylesheet" href="../static/style.css">
 </head>
 <body>
 <main>
 
-    <a href="/" class="link">Назад</a>
+    <h1>Instagram<br>for<br>poor </h1>
 
-    <h1>Посты по тегу “{{search_tag}}”</h1>
+    <a href="/new_post" class="button">Добавить пост</a>
+    <hr>
+    <form action="/tag" method="get">
+            <input type="text" name="search_by_tag" placeholder="Поиск по тегу...">
+    </form>
+    <hr>
 
-    {% for post in posts_match %}
+    {% for post in posts %}
     <div class="post">
-        <img src={{post.pic}} width="100%" alt="">
-        {{post.content}}
+        <a href="./post/{{post.post_id}}">
+            <img src={{post.pic}} width="100%" alt="">
+        </a>
+            {% for tag in post.tags %}
+                <a href="/tag?search_by_tag={{tag}}">#{{tag}}</a>
+            {% endfor %}
         <form action="">
             <h4>Оставить комментарий:</h4>
             <p><textarea rows="5"  name="comment_text"></textarea></p>
