@@ -66,12 +66,6 @@ def save_comment():
     return render_template('comment_uploaded.html')
 
 
-
-
-
-
 if __name__ == '__name__':
     app.run(debug=True)
 
-
-app.run()
